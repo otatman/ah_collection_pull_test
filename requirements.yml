@@ -1,0 +1,4 @@
+collections:
+  - name: update_collection_test.testing_collection
+    version: 1.0.2
+    source: https://10.1.196.109
