@@ -4,5 +4,5 @@
   collections: 
     - update_collection_test.testing_collection
   tasks:
-    - include_role:
-        name: debug
+    - import_playbook: update_collection_test.testing_collection.test
+    
