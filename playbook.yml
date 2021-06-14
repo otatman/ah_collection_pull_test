@@ -4,5 +4,5 @@
   collections: 
     - update_collection_test.testing_collection
   tasks:
-    - import_role:
+    - include_role:
         name: debug
