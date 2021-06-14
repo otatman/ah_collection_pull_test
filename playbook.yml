@@ -1,8 +1,8 @@
 ---
 - name: run collection holding debug role to prove collection collection stored in AH
   hosts: localhost
-  collections: update_collection_test.testing_collection
+  collections: 
+    - update_collection_test.testing_collection
   tasks:
-    - name: run debug role
-      include_role:
+    - import_role:
         name: debug
